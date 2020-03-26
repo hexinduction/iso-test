@@ -1,0 +1,24 @@
+body {
+  background-color: #a4ebe8;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.gif {
+    position: absolute;
+    z-index: -1;
+    width: 36%;
+    transform: rotateX(55deg) rotateY(0deg) rotateZ(-45deg);
+    padding-left: 29.9%;
+    padding-top: 20.2%;
+}
+
+.phone {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
